@@ -1,15 +1,18 @@
+/* Style all element boxes to screen extent */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Setting background colour for webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* Setting font style and colour for all text in the header and creating background header box with blue font */
 header {
-    padding: 20px;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -20,28 +23,32 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
+/* "seo" in horiseon is emphasized with different font colour by giving it a unique id  */
+#seo {
     color: #d9dcd6;
 }
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 20px;
 }
 
-.header li {
+/* Displaying internal nav links in the header in a row to the right of the page */
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set all paragraph and linked fonts to white (and removes underlines fromnav bar)*/
 a, p {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Allows large image to behave like background image while still being linked in html by using object-fit */
 .hero {
     display: block;
     height: 800px;
@@ -66,6 +73,7 @@ a, p {
     color: #ffffff;
 }
 
+/* float classes indicate where images exist within the details class(boxes) */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -83,7 +91,8 @@ a, p {
     font-size: 36px;
 }
 
-.benefits {
+/* Using aside semantic element with classes to customize the sidebar's font, header, and icon postions and style*/
+aside {
     margin-top: -960px;
     margin-right: 20px;
     margin-bottom: 32px;
@@ -96,25 +105,24 @@ a, p {
     background-color: #2589bd;
 }
 
-.benefit-content h3 {
+.aside-content h3 {
     margin-bottom: 10px;
     text-align: center;
     color: #ffffff;
 }
 
-.benefit-content img {
+.aside-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-footer {
+/* footer with small semantic element for copyright information */
+footer, small {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer p {
     color: black;
 }
+
