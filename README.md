@@ -1,7 +1,7 @@
 ## Horiseon: Refactoring an exisiting code
 
 ## Purpose
-Refactoring of an existing code in html and css to make it cleaner, easier to read and generate a more accessible webpage. 
+Refactor an exisiting code that uses html, a linked css stylesheet, and multiple images. The refactoring improved the code so that it follows accessibility guidelines and presents a more organized and cleaner code. The refactored code is now easier to read and contains fewer redundancies in classes and styling.
 
 ## Built With
 * HTML
